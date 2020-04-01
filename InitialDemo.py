@@ -125,25 +125,21 @@ class Demo2:
         toolbar.update()
         canvas.get_tk_widget().pack(side=tkinter.TOP, fill=tkinter.BOTH, expand=1)
 
-
         tkinter.mainloop()
 
-
-
+        
     def close_windows(self):
         self.master.destroy()
 
 def main(): 
     root = tkinter.Tk()
     root.withdraw()
-    root.update_idletasks()  # Update "requested size" from geometry manager
+    root.update_idletasks()
     
     x = (root.winfo_screenwidth() - root.winfo_reqwidth()) / 2
     y = (root.winfo_screenheight() - root.winfo_reqheight()) / 2
     root.geometry("300x166+" + str(int(x)) + "+" + str(int(y)))
     
-    # This seems to draw the window frame immediately, so only call deiconify()
-    # after setting correct window position
     root.deiconify() 
   
     app = Demo1(root)
