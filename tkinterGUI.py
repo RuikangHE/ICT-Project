@@ -2,7 +2,7 @@
 """
 Created on Fri Apr  3 02:15:32 2020
 
-@author: 236918615
+@author: 236918615@qq.com
 """
 import tkinter as tk
 from tkinter import ttk
