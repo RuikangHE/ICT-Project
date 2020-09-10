@@ -2,7 +2,7 @@
 """
 Created on Wed Apr  1 00:48:13 2020
 
-@author: 2369158615
+@author: 2369158615@qq.com
 """
 
 import tkinter
